@@ -295,12 +295,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e1d9782d3e808444b8642e4102d590d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    name: Joe Mama
-    sentences:
-    - Hello my name is Joe
-    - Joe Mama!
-    - Gottem
 --- !u!136 &30368833
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -632,12 +626,15 @@ GameObject:
   m_Component:
   - component: {fileID: 256269061}
   - component: {fileID: 256269057}
+  - component: {fileID: 256269063}
+  - component: {fileID: 256269062}
+  - component: {fileID: 256269064}
+  - component: {fileID: 256269065}
   - component: {fileID: 256269059}
   - component: {fileID: 256269058}
-  - component: {fileID: 256269063}
-  - component: {fileID: 256269064}
+  - component: {fileID: 256269066}
   - component: {fileID: 256269060}
-  - component: {fileID: 256269062}
+  - component: {fileID: 256269067}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -658,7 +655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -130.6, y: 27.100006}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 381.25
@@ -672,8 +669,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 256269063}
   selectedCommands: []
-  variables:
-  - {fileID: 256269060}
+  variables: []
   description: 
   stepPause: 0
   colorCommands: 1
@@ -693,24 +689,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 256269056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1
+  itemId: 9
   indentLevel: 0
-  storyText: Hello
+  text: Go to option 2
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 256269059}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &256269059
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -725,18 +719,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 70
-    width: 77.2
+    x: 412.2
+    y: 127.899994
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
-  blockName: Start
+  itemId: 8
+  blockName: Option 2
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 256269058}
+  - {fileID: 256269060}
   suppressAllAutoSelections: 0
 --- !u!114 &256269060
 MonoBehaviour:
@@ -747,12 +741,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 256269056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0057f41f38d80eb42994d709097bab6c, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
-  key: TestCharacter
-  value: {fileID: 1127678457}
+  itemId: 11
+  indentLevel: 0
+  storyText: goodbye
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!4 &256269061
 Transform:
   m_ObjectHideFlags: 0
@@ -808,8 +814,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 214
-    y: 71
+    x: 215
+    y: 69
     width: 131.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -817,9 +823,11 @@ MonoBehaviour:
   itemId: 2
   blockName: Start Dialogue
   description: 
-  eventHandler: {fileID: 256269064}
+  eventHandler: {fileID: 256269067}
   commandList:
   - {fileID: 256269062}
+  - {fileID: 256269065}
+  - {fileID: 256269058}
   suppressAllAutoSelections: 0
 --- !u!114 &256269064
 MonoBehaviour:
@@ -830,14 +838,91 @@ MonoBehaviour:
   m_GameObject: {fileID: 256269056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a98f5f89242e80d42865cdf1912beda3, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 410
+    y: 70
+    width: 97.2
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 6
+  blockName: Option 1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 256269066}
+  suppressAllAutoSelections: 0
+--- !u!114 &256269065
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256269056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+  text: Go to option 1
+  description: 
+  targetBlock: {fileID: 256269064}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &256269066
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256269056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+  storyText: what do you need
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &256269067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256269056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 256269063}
   suppressBlockAutoSelect: 0
-  tagFilter: []
-  FireOn: 1
-  colliderVar: {fileID: 256269060}
+  message: Bob Start
 --- !u!1 &473462103
 GameObject:
   m_ObjectHideFlags: 3
@@ -904,7 +989,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473462103}
-  m_LocalRotation: {x: -0.0000000145876955, y: 0.89022857, z: -0.45551416, w: -0.000000028509286}
+  m_LocalRotation: {x: 0.000000005339467, y: 0.89022857, z: -0.4555142, w: 0.000000010435123}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1298,7 +1383,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771599565}
-  m_LocalRotation: {x: -0, y: 0.8817957, z: -0.47163162, w: -1e-45}
+  m_LocalRotation: {x: -0, y: 0.8817957, z: -0.47163162, w: 1e-45}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1852,9 +1937,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caff935288ae8ec4ebaa18635b3b2b31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextBox: {fileID: 560717156}
-  nameText: {fileID: 105147840}
-  dialogueText: {fileID: 1488397646}
 --- !u!4 &1361623124
 Transform:
   m_ObjectHideFlags: 0
@@ -2442,7 +2524,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096142713}
-  m_LocalRotation: {x: -0.000000014299297, y: 0.88213867, z: -0.4709899, w: -0.000000026781809}
+  m_LocalRotation: {x: 0.000000014078463, y: 0.88213867, z: -0.4709899, w: 0.0000000263682}
   m_LocalPosition: {x: 0, y: 16.754433, z: 5.282226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

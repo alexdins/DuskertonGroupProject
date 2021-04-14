@@ -5,12 +5,12 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     
-    public Dialogue dialogue;
+    
 
     public void TriggerDialogue()
     {
 
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        FindObjectOfType<DialogueManager>().StartDialogue();
 
     }
 
@@ -18,11 +18,6 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (FindObjectOfType<DialogueManager>().TextBox.activeSelf)
-            {
-                FindObjectOfType<DialogueManager>().DisplayNextSentence();
-                return;
-            }
             TriggerDialogue();
         }
     }
