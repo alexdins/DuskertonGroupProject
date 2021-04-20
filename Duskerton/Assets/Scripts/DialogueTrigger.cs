@@ -7,10 +7,10 @@ public class DialogueTrigger : MonoBehaviour
     
     
 
-    public void TriggerDialogue()
+    public void TriggerDialogue(string npc)
     {
 
-        FindObjectOfType<DialogueManager>().StartDialogue();
+        FindObjectOfType<DialogueManager>().StartDialogue(npc);
 
     }
 
@@ -18,8 +18,9 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            TriggerDialogue();
+            TriggerDialogue(gameObject.tag);
         }
+        
     }
 
 }

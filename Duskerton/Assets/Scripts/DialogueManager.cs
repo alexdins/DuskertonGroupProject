@@ -14,9 +14,25 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    public void StartDialogue ()
+    public void StartDialogue (string npc)
     {
-        Fungus.Flowchart.BroadcastFungusMessage("Bob Start");
+        if (npc.Equals("Crawford"))
+        {
+            Fungus.Flowchart.BroadcastFungusMessage("Crawford Start");
+        }
+        else if (npc.Equals("Howie"))
+        {
+            Fungus.Flowchart.BroadcastFungusMessage("Howie Start");
+        }
+        else if (npc.Equals("Luca"))
+        {
+            Fungus.Flowchart.BroadcastFungusMessage("Luca Start");
+        }
+        else if (npc.Equals("Agnes"))
+        {
+            Fungus.Flowchart.BroadcastFungusMessage("Agnes Start");
+        }
+
         
 
     }
