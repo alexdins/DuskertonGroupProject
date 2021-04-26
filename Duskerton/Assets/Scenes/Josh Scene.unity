@@ -366,10 +366,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30368830}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.441231, y: -4.82377, z: -5.0150027}
+  m_LocalPosition: {x: 5.6400003, y: 5.36, z: -5.52}
   m_LocalScale: {x: 0.95189565, y: 0.5645229, z: 0.92613196}
   m_Children: []
-  m_Father: {fileID: 1409015356}
+  m_Father: {fileID: 555824872}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &71404500
@@ -729,11 +729,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 246.62875, y: 352.86768}
+  scrollPos: {x: 469.24066, y: 237.57121}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 338.8
-  zoom: 0.60999995
+  zoom: 0.7299999
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -742,7 +742,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 256269069}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 256269091}
   variables:
   - {fileID: 256269060}
   - {fileID: 256269059}
@@ -832,7 +833,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 189.7188
     y: 346.87057
-    width: 95.90164
+    width: 96.027405
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -883,7 +884,7 @@ MonoBehaviour:
     widow on the suspect\r list, but there appears to have been some motive. Careful
     though, she seems....timid.\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 555824873}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -914,7 +915,7 @@ MonoBehaviour:
     than shining criminal past, has led them to think\r Luca did it as a favor to
     the mob."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 555824873}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -943,7 +944,7 @@ MonoBehaviour:
     Agnes. He\u2019s\r retired from the Duskerton Police Department after three decades
     of service.\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 555824873}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1141,7 +1142,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 173.65154
     y: 82.60355
-    width: 130
+    width: 132.19179
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1189,7 +1190,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1624.7552
     y: 80.368324
-    width: 105.08197
+    width: 106.98631
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1219,7 +1220,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 900.616
     y: 80.94527
-    width: 114.2623
+    width: 115.75343
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1249,7 +1250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2344.1262
     y: 79.08382
-    width: 112.95082
+    width: 113.561646
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1281,7 +1282,7 @@ MonoBehaviour:
     the DPD has better\r officers\u2019n me. You\u2019re the PI they hired to help
     with this mess.\r"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 555824873}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1526,7 +1527,7 @@ MonoBehaviour:
     wrong side of\r someone. But I thought he\u2019d left that life behind, guess
     the past came back to haunt \u2018im."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 555824873}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1553,7 +1554,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 166.06197
     y: -80.428154
-    width: 145.73772
+    width: 147.53426
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1606,7 +1607,7 @@ MonoBehaviour:
   text: Who are our suspects?
   description: 
   targetBlock: {fileID: 256269062}
-  hideIfVisited: 1
+  hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2223,7 +2224,7 @@ MonoBehaviour:
   storyText: "I\u2019ve been called here before, nothing like this though. Poor Mick,
     he\u2019s had a tough life."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 555824873}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2250,7 +2251,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 195.27992
     y: 201.31587
-    width: 89.34427
+    width: 89.45206
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2277,9 +2278,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1.4523544
-    y: 202.5382
-    width: 89.34427
+    x: -0.08249128
+    y: 201.16833
+    width: 88.35617
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2308,7 +2309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 386.88797
     y: 201.72969
-    width: 90.65575
+    width: 90.54795
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2426,7 +2427,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2334.9219
     y: -76.37143
-    width: 128.68854
+    width: 128.90411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2480,7 +2481,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Temp Goodbye
   description: 
-  character: {fileID: 0}
+  character: {fileID: 555824873}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2778,7 +2779,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2548.0447
     y: 201.95763
-    width: 94.590164
+    width: 93.83562
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2806,7 +2807,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2352.8442
     y: 202.54327
-    width: 93.278694
+    width: 92.73973
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2834,7 +2835,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2153.7131
     y: 201.73085
-    width: 93.278694
+    width: 91.643845
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3135,7 +3136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1615.9237
     y: -78.99208
-    width: 120.81968
+    width: 122.32877
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3161,8 +3162,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1634.2935
-    y: 202.35027
-    width: 85.409836
+    y: 200.98041
+    width: 86.16438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3190,7 +3191,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1436.8423
     y: 201.56927
-    width: 85.409836
+    width: 85.0685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3218,7 +3219,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1832.4437
     y: 203.45982
-    width: 86.72131
+    width: 87.26028
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3415,7 +3416,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1106.0424
     y: 201.52826
-    width: 95.90164
+    width: 96.027405
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3443,7 +3444,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 909.6726
     y: 203.1172
-    width: 94.590164
+    width: 94.93151
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3471,7 +3472,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 717.8634
     y: 202.51904
-    width: 94.590164
+    width: 93.83562
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3499,7 +3500,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 892.5358
     y: -79.26511
-    width: 130
+    width: 131.0959
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3643,7 +3644,7 @@ Transform:
   m_LocalScale: {x: 0.95189565, y: 0.5645229, z: 0.92613196}
   m_Children: []
   m_Father: {fileID: 1409015356}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &415350801
 SphereCollider:
@@ -3902,6 +3903,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -16.458, y: 180, z: 0}
+--- !u!1 &555824871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 555824872}
+  - component: {fileID: 555824873}
+  m_Layer: 0
+  m_Name: Lt. Crawford
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &555824872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555824871}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.8012307, y: -10.18377, z: 0.5049972}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 30368836}
+  m_Father: {fileID: 1409015356}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &555824873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555824871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Lt. Crawford
+  nameColor: {r: 1, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &560717156
 GameObject:
   m_ObjectHideFlags: 0
@@ -4788,10 +4840,10 @@ Transform:
   m_LocalPosition: {x: -1.8012307, y: 10.18377, z: -0.5049972}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 30368836}
   - {fileID: 1755311482}
   - {fileID: 415350800}
   - {fileID: 1740686110}
+  - {fileID: 555824872}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5097,7 +5149,7 @@ Transform:
   m_LocalScale: {x: 0.95189565, y: 0.5645229, z: 0.92613196}
   m_Children: []
   m_Father: {fileID: 1409015356}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1740686111
 SphereCollider:
@@ -5220,7 +5272,7 @@ Transform:
   m_LocalScale: {x: 0.95189565, y: 0.5645229, z: 0.92613196}
   m_Children: []
   m_Father: {fileID: 1409015356}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1755311483
 SphereCollider:
