@@ -14,6 +14,7 @@ public class CameraCtrl : MonoBehaviour
 
     void Start()
     {
+        currCam = 0;
         views[0].enabled = true; //Third Person View
         views[1].enabled = false; //First Person View
         pcArms.SetActive(false);

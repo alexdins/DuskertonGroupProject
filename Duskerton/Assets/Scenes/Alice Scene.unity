@@ -326,17 +326,13 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.013888567
       objectReference: {fileID: 0}
-    - target: {fileID: 7431488614909573447, guid: 05261543f1332a941ae8eede90db2eb7, type: 3}
-      propertyPath: currCam
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7431488615519932764, guid: 05261543f1332a941ae8eede90db2eb7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0670656
+      value: 0.06706566
       objectReference: {fileID: 0}
     - target: {fileID: 7431488615519932764, guid: 05261543f1332a941ae8eede90db2eb7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.015107708
+      value: -0.015107724
       objectReference: {fileID: 0}
     - target: {fileID: 7431488615619029962, guid: 05261543f1332a941ae8eede90db2eb7, type: 3}
       propertyPath: m_LocalRotation.y
