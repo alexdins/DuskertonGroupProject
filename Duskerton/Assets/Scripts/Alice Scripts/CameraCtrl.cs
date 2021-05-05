@@ -33,13 +33,18 @@ public class CameraCtrl : MonoBehaviour
             else if (currCam == 1) setCam = 0;
             else Debug.LogError("currCam exceeds definitions!");
 
+            Cursor.lockState = CursorLockMode.Locked;
+
             pcArms.SetActive(false);
             views[currCam].enabled = false;
             views[setCam].enabled = true;
             currCam = setCam;
 
-            if (views[1].enabled) 
+            if (views[1].enabled)
+            {
                 pcArms.SetActive(true);
+                Cursor.lockState = CursorLockMode.None;
+            }
         }
 
         if (views[1].enabled == true)
