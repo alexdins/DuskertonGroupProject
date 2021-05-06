@@ -860,6 +860,8 @@ GameObject:
   - component: {fileID: 256269217}
   - component: {fileID: 256269216}
   - component: {fileID: 256269215}
+  - component: {fileID: 256269293}
+  - component: {fileID: 256269294}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -880,11 +882,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 385.68146, y: 476.11285}
+  scrollPos: {x: -317.81705, y: 39.343395}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 418.8
-  zoom: 0.46000028
+  zoom: 0.85000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -892,7 +894,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 256269069}
+  - {fileID: 256269073}
   selectedCommands: []
   variables:
   - {fileID: 256269068}
@@ -986,7 +988,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 189.7188
     y: 346.87057
-    width: 96.9565
+    width: 96.11764
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -997,6 +999,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 256269066}
   - {fileID: 256269065}
+  - {fileID: 256269293}
   - {fileID: 256269064}
   - {fileID: 256269063}
   suppressAllAutoSelections: 0
@@ -1064,9 +1067,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Luca Florentini is the owner of the bistro and pizzeria at the corner
     of the road. From\r what the portfolio from HQ says, his brother was part of
-    the Mob and a moonshiner. This\r connection, in reference to Mick\u2019s less
-    than shining criminal past, has led them to think\r Luca did it as a favor to
-    the mob."
+    the Mob and a moonshiner. "
   description: 
   character: {fileID: 555824873}
   portrait: {fileID: 0}
@@ -1158,7 +1159,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 173.65154
     y: 83.82307
-    width: 129.99995
+    width: 129.99998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1249,7 +1250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1624.7552
     y: 80.368324
-    width: 107.391266
+    width: 105.5294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1258,7 +1259,7 @@ MonoBehaviour:
   description: 'Luca Florentini
 
 
-    Luca max = 4'
+    Luca max = 5'
   eventHandler: {fileID: 256269075}
   commandList:
   - {fileID: 256269122}
@@ -1269,6 +1270,7 @@ MonoBehaviour:
   - {fileID: 256269165}
   - {fileID: 256269166}
   - {fileID: 256269167}
+  - {fileID: 256269294}
   - {fileID: 256269168}
   - {fileID: 256269164}
   - {fileID: 256269193}
@@ -1305,7 +1307,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 900.616
     y: 79.72575
-    width: 116.086914
+    width: 114.94116
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1314,7 +1316,7 @@ MonoBehaviour:
   description: 'Howie Washington
 
 
-    Howie max = 4'
+    Howie max = 5'
   eventHandler: {fileID: 256269076}
   commandList:
   - {fileID: 256269141}
@@ -1371,7 +1373,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2343.1262
     y: 79.08382
-    width: 114.347786
+    width: 113.05881
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1380,7 +1382,7 @@ MonoBehaviour:
   description: 'Agnes McMallen
 
 
-    Agnes max = 4'
+    Agnes max = 5'
   eventHandler: {fileID: 256269077}
   commandList:
   - {fileID: 256269108}
@@ -1566,7 +1568,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 166.06197
     y: -80.428154
-    width: 149.13037
+    width: 145.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2085,7 +2087,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 193.85135
     y: 201.31587
-    width: 89.99998
+    width: 89.5294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2115,7 +2117,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -0.08249128
     y: 201.16833
-    width: 88.26085
+    width: 88.58823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2144,7 +2146,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 386.88797
     y: 201.72969
-    width: 91.739105
+    width: 91.41176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2262,7 +2264,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2334.9219
     y: -76.37143
-    width: 133.47821
+    width: 129.0588
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2614,7 +2616,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2548.0447
     y: 201.95763
-    width: 96.9565
+    width: 95.17646
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2643,7 +2645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2353.7136
     y: 202.54327
-    width: 95.21736
+    width: 93.29411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2672,7 +2674,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2153.7131
     y: 201.73085
-    width: 93.47823
+    width: 92.352936
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2972,7 +2974,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1615.9237
     y: -78.99208
-    width: 126.52169
+    width: 121.529396
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2999,7 +3001,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1634.2935
     y: 200.98041
-    width: 88.26085
+    width: 85.764694
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3028,7 +3030,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1436.8423
     y: 201.56927
-    width: 86.52171
+    width: 84.82352
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3057,7 +3059,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1834.6177
     y: 203.45982
-    width: 89.99998
+    width: 87.64705
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3256,7 +3258,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1106.0424
     y: 201.52826
-    width: 98.69562
+    width: 97.05881
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3285,7 +3287,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 908.6726
     y: 203.1172
-    width: 96.9565
+    width: 95.17646
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3314,7 +3316,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 717.8634
     y: 202.51904
-    width: 95.21736
+    width: 94.23528
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3343,7 +3345,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 892.5358
     y: -79.26511
-    width: 135.21735
+    width: 130.94116
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6373,9 +6375,7 @@ MonoBehaviour:
   itemId: 135
   indentLevel: 1
   storyText: "Uhhh, he did mention how his cousin was involved in a turf war with
-    the Mob, asked if I\r knew anybody who may have fought in it as well, I didn\u2019t
-    take him seriously at first, but he\r pushed it. Seemed desperate to find someone
-    with connections."
+    the Mob, asked if I\r knew anybody who may have fought in it as well, "
   description: 
   character: {fileID: 7612924190341886618}
   portrait: {fileID: 0}
@@ -6470,7 +6470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 131
   indentLevel: 0
-  anyOrAllConditions: 0
+  anyOrAllConditions: 1
   conditions:
   - compareOperator: 0
     anyVar:
@@ -7072,7 +7072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 120
   indentLevel: 0
-  anyOrAllConditions: 0
+  anyOrAllConditions: 1
   conditions:
   - compareOperator: 0
     anyVar:
@@ -10072,7 +10072,7 @@ MonoBehaviour:
   itemId: 253
   indentLevel: 1
   storyText: "Luca only knew offhand rumors about Mick\u2019s issues. Hell, he would\u2019ve
-    given Mick\r\nwork had he had the chance to."
+    given Mick\r work had he had the chance to."
   description: 
   character: {fileID: 6101961303057054291}
   portrait: {fileID: 0}
@@ -10100,7 +10100,7 @@ MonoBehaviour:
   itemId: 252
   indentLevel: 1
   storyText: "Howie, however, was very aggressive over Mick\u2019s issues. He got
-    angry when asked\r\nabout the money issue and was very upset over the treatment
+    angry when asked\r about the money issue and was very upset over the treatment
     of Agnes by drunk Mick."
   description: 
   character: {fileID: 6101961303057054291}
@@ -10314,7 +10314,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 4
+          integerVal: 5
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -10598,7 +10598,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 4
+          integerVal: 5
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -10855,7 +10855,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 4
+          integerVal: 5
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -10944,7 +10944,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 4
+          integerVal: 5
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -12470,7 +12470,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 898.86957
     y: 354.893
-    width: 131.73907
+    width: 129.0588
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12564,7 +12564,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1104.9082
     y: 472.11093
-    width: 96.9565
+    width: 95.17646
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12593,7 +12593,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 716.6624
     y: 478.21408
-    width: 98.69562
+    width: 97.05881
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12622,7 +12622,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 913.5618
     y: 476.2189
-    width: 96.9565
+    width: 95.17646
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13789,10 +13789,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 194
   indentLevel: 2
-  storyText: 'Mick definitely had a drinking problem. He often ended up spending
-    their rent money
-
-    on the drink.'
+  storyText: Mick definitely had a drinking problem. He often ended up spending their
+    rent money on the drink.
   description: 
   character: {fileID: 6101961303057054291}
   portrait: {fileID: 0}
@@ -14031,7 +14029,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 4
+          integerVal: 5
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -15134,6 +15132,62 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &256269293
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256269056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 255
+  indentLevel: 0
+  storyText: "This\r connection, in reference to Mick\u2019s less than shining criminal
+    past, has led them to think\r Luca did it as a favor to the mob."
+  description: 
+  character: {fileID: 555824873}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &256269294
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256269056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 256
+  indentLevel: 1
+  storyText: "I didn\u2019t take him seriously at first, but he\r pushed it. Seemed
+    desperate to find someone with connections."
+  description: 
+  character: {fileID: 7612924190341886618}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &415350799
 GameObject:
   m_ObjectHideFlags: 0
@@ -15323,7 +15377,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473462103}
-  m_LocalRotation: {x: -0.0000000145876955, y: 0.89022857, z: -0.45551416, w: -0.000000028509286}
+  m_LocalRotation: {x: 0.000000005339467, y: 0.89022857, z: -0.4555142, w: 0.000000010435123}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -15728,7 +15782,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771599565}
-  m_LocalRotation: {x: -0, y: 0.8817957, z: -0.47163162, w: -1e-45}
+  m_LocalRotation: {x: -0, y: 0.8817957, z: -0.47163162, w: 1e-45}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -16941,7 +16995,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947799109}
-  m_LocalRotation: {x: -0.000000014068089, y: 0.89834577, z: -0.43928912, w: -0.000000028769227}
+  m_LocalRotation: {x: 0.0000000051492828, y: 0.8983457, z: -0.43928915, w: 0.000000010530278}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -17149,7 +17203,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096142713}
-  m_LocalRotation: {x: -0.000000014299297, y: 0.88213867, z: -0.4709899, w: -0.000000026781809}
+  m_LocalRotation: {x: 0.000000014078463, y: 0.88213867, z: -0.4709899, w: 0.0000000263682}
   m_LocalPosition: {x: 0, y: 16.754433, z: 5.282226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
