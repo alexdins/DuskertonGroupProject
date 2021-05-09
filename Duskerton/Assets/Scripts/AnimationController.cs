@@ -6,7 +6,7 @@ public class AnimationController : MonoBehaviour
 {
 
     Animator animator;
-    int isWalkingHash
+    int isWalkingHash;
 
 
     // Start is called before the first frame update

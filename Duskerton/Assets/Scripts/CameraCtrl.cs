@@ -25,28 +25,6 @@ public class CameraCtrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            int setCam = 0;
-
-            if (currCam == 0) setCam = 1;
-            else if (currCam == 1) setCam = 0;
-            else Debug.LogError("currCam exceeds definitions!");
-
-            Cursor.lockState = CursorLockMode.Locked;
-
-            pcArms.SetActive(false);
-            views[currCam].enabled = false;
-            views[setCam].enabled = true;
-            currCam = setCam;
-
-            if (views[1].enabled)
-            {
-                pcArms.SetActive(true);
-                Cursor.lockState = CursorLockMode.None;
-            }
-        }
-
         if (views[1].enabled == true)
         {
             float mouseX = Input.GetAxis("Mouse X") * mouseSpeed * Time.deltaTime;
@@ -57,6 +35,28 @@ public class CameraCtrl : MonoBehaviour
 
             views[1].transform.localRotation = Quaternion.Euler(xRot, 0f, 0f);
             transform.Rotate(Vector3.up * mouseX);
+        }
+    }
+
+    public void CamChange()
+    {
+        int setCam = 0;
+
+        if (currCam == 0) setCam = 1;
+        else if (currCam == 1) setCam = 0;
+        else Debug.LogError("currCam exceeds definitions!");
+
+        Cursor.lockState = CursorLockMode.Locked;
+
+        pcArms.SetActive(false);
+        views[currCam].enabled = false;
+        views[setCam].enabled = true;
+        currCam = setCam;
+
+        if (views[1].enabled)
+        {
+            pcArms.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
         }
     }
 }

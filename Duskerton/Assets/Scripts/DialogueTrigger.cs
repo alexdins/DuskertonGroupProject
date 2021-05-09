@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    
-    
+    CameraCtrl CameraCtrl;    
 
     public void TriggerDialogue(string npc)
     {
@@ -18,6 +17,9 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
+            GameObject PC = GameObject.Find("Player Character");
+            CameraCtrl = PC.GetComponent<CameraCtrl>();
+            CameraCtrl.CamChange();
             TriggerDialogue(gameObject.tag);
         }
         
