@@ -7,7 +7,7 @@ public class MoveCtrl : MonoBehaviour
     public CameraCtrl CameraCtrl;
     public float turnSmoothTime = 0.1f;
     public float speed = 12f;
-
+    public bool moving = false;
     float turnSmoothVelocity;
     
     // Update is called once per frame
@@ -28,7 +28,9 @@ public class MoveCtrl : MonoBehaviour
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             CameraCtrl.control.Move(moveDir * speed * Time.deltaTime);
-
+            moving = true;
         }
+        else
+            moving = false;
     }
 }
