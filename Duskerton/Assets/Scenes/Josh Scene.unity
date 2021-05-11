@@ -862,6 +862,7 @@ GameObject:
   - component: {fileID: 256269215}
   - component: {fileID: 256269293}
   - component: {fileID: 256269294}
+  - component: {fileID: 256269295}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -882,19 +883,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -317.81705, y: 39.343395}
+  scrollPos: {x: 970.5249, y: 1095.6775}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 418.8
-  zoom: 0.85000014
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 256269073}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 256269068}
@@ -988,7 +988,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 189.7188
     y: 346.87057
-    width: 96.11764
+    width: 94.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1159,7 +1159,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 173.65154
     y: 83.82307
-    width: 129.99998
+    width: 126.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1250,7 +1250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1624.7552
     y: 80.368324
-    width: 105.5294
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1268,6 +1268,7 @@ MonoBehaviour:
   - {fileID: 256269171}
   - {fileID: 256269169}
   - {fileID: 256269165}
+  - {fileID: 256269295}
   - {fileID: 256269166}
   - {fileID: 256269167}
   - {fileID: 256269294}
@@ -1307,7 +1308,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 900.616
     y: 79.72575
-    width: 114.94116
+    width: 114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1373,7 +1374,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2343.1262
     y: 79.08382
-    width: 113.05881
+    width: 114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1568,7 +1569,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 166.06197
     y: -80.428154
-    width: 145.99997
+    width: 142.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2087,7 +2088,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 193.85135
     y: 201.31587
-    width: 89.5294
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2116,8 +2117,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -0.08249128
-    y: 201.16833
-    width: 88.58823
+    y: 200.16833
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2145,8 +2146,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 386.88797
-    y: 201.72969
-    width: 91.41176
+    y: 202.72969
+    width: 91.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2262,9 +2263,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2334.9219
+    x: 2333.9219
     y: -76.37143
-    width: 129.0588
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2289,7 +2290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 94
   indentLevel: 0
-  storyText: Temp Goodbye
+  storyText: Take care.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2316,7 +2317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: Temp Goodbye
+  storyText: See ya.
   description: 
   character: {fileID: 555824873}
   portrait: {fileID: 0}
@@ -2616,7 +2617,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2548.0447
     y: 201.95763
-    width: 95.17646
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2645,7 +2646,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2353.7136
     y: 202.54327
-    width: 93.29411
+    width: 94.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2674,7 +2675,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2153.7131
     y: 201.73085
-    width: 92.352936
+    width: 94.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2974,7 +2975,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1615.9237
     y: -78.99208
-    width: 121.529396
+    width: 120.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3001,7 +3002,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1634.2935
     y: 200.98041
-    width: 85.764694
+    width: 85.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3030,7 +3031,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1436.8423
     y: 201.56927
-    width: 84.82352
+    width: 85.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3059,7 +3060,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1834.6177
     y: 203.45982
-    width: 87.64705
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3258,7 +3259,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1106.0424
     y: 201.52826
-    width: 97.05881
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3287,7 +3288,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 908.6726
     y: 203.1172
-    width: 95.17646
+    width: 94.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3316,7 +3317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 717.8634
     y: 202.51904
-    width: 94.23528
+    width: 94.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3345,7 +3346,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 892.5358
     y: -79.26511
-    width: 130.94116
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6318,9 +6319,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 1
   storyText: "Hmmm, well he always seemed quick to get irritated. Constantly complaining
-    about\r how his wife was nagging him and how his neighbor was butting in constantly.
-    It seemed\r cathartic for him to rant to me. Didn\u2019t know much about him
-    other than that."
+    about\r how his wife was nagging him and how his neighbor was butting in constantly. "
   description: 
   character: {fileID: 7612924190341886618}
   portrait: {fileID: 0}
@@ -9272,11 +9271,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 177
   indentLevel: 1
-  storyText: 'He...he drank a lot. It caused considerable tension between us. Sometimes
-    he spent the
-
-    rent money on alcohol. BUT! But he always got the money for
-    rent...somehow.'
+  storyText: He...he drank a lot. It caused considerable tension between us. Sometimes
+    he spent the rent money on alcohol. BUT! But he always got the money for rent...somehow.
   description: 
   character: {fileID: 5507820430735588177}
   portrait: {fileID: 0}
@@ -9331,10 +9327,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 179
   indentLevel: 1
-  storyText: 'Okay...OKAY! Mick was a drunk! He drank to escape his past and his
-    injury, but he was
-
-    a good man!'
+  storyText: Okay...OKAY! Mick was a drunk! He drank to escape his past and his injury,
+    but he was a good man!
   description: 
   character: {fileID: 5507820430735588177}
   portrait: {fileID: 0}
@@ -9389,7 +9383,7 @@ MonoBehaviour:
   itemId: 181
   indentLevel: 1
   storyText: "Miss, I\u2019ve heard from other witnesses that Mick had a drinking
-    problem. Please,\r\ncooperate."
+    problem. Please,\r cooperate."
   description: 
   character: {fileID: 6101961303057054291}
   portrait: {fileID: 0}
@@ -12468,9 +12462,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 898.86957
+    x: 897.6931
     y: 354.893
-    width: 129.0588
+    width: 126.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12564,7 +12558,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1104.9082
     y: 472.11093
-    width: 95.17646
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12593,7 +12587,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 716.6624
     y: 478.21408
-    width: 97.05881
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12622,7 +12616,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 913.5618
     y: 476.2189
-    width: 95.17646
+    width: 94.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13019,10 +13013,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 207
   indentLevel: 1
-  storyText: 'At first, but he kept coming back, the leech. I only helped him after
-    that to keep Agnes
-
-    off the streets.'
+  storyText: At first, but he kept coming back, the leech. I only helped him after
+    that to keep Agnes off the streets.
   description: 
   character: {fileID: 7089247060847739920}
   portrait: {fileID: 0}
@@ -15188,6 +15180,34 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &256269295
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256269056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 257
+  indentLevel: 1
+  storyText: "It seemed\r cathartic for him to rant to me. Didn\u2019t know much
+    about him other than that."
+  description: 
+  character: {fileID: 7612924190341886618}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &415350799
 GameObject:
   m_ObjectHideFlags: 0
@@ -15377,7 +15397,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473462103}
-  m_LocalRotation: {x: 0.000000005339467, y: 0.89022857, z: -0.4555142, w: 0.000000010435123}
+  m_LocalRotation: {x: 1e-45, y: 0.8902285, z: -0.4555142, w: 1e-45}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -15782,7 +15802,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771599565}
-  m_LocalRotation: {x: -0, y: 0.8817957, z: -0.47163162, w: 1e-45}
+  m_LocalRotation: {x: 0.000000008115075, y: 0.8817957, z: -0.47163165, w: 0.000000015172517}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -16196,6 +16216,7 @@ GameObject:
   - component: {fileID: 1127678458}
   - component: {fileID: 1127678457}
   - component: {fileID: 1127678456}
+  - component: {fileID: 1127678460}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -16211,7 +16232,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127678454}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1914601653}
@@ -16227,19 +16248,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1127678454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de0e720008c61e34483b552487fe1990, type: 3}
+  m_Script: {fileID: 11500000, guid: 91e122ae1f9be6e48a23bb1538513f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 1127678457}
-  cam: {fileID: 2096142716}
-  speed: 6
+  CameraCtrl: {fileID: 1127678460}
   turnSmoothTime: 0.1
-  gravity: -9.8
-  groundCheck: {fileID: 1914601653}
-  groundDistance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 256
+  speed: 12
 --- !u!143 &1127678457
 CharacterController:
   m_ObjectHideFlags: 0
@@ -16307,6 +16321,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127678454}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1127678460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127678454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7d20d3d1cbd87478a8ee7dd54990eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  control: {fileID: 1127678457}
+  pcArms: {fileID: 0}
+  views:
+  - {fileID: 2096142715}
+  - {fileID: 0}
+  mouseSpeed: 100
+  currCam: 0
 --- !u!1 &1361623122
 GameObject:
   m_ObjectHideFlags: 0
@@ -16644,7 +16677,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704079747}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 16.754433, z: 5.282226}
+  m_LocalPosition: {x: 0, y: 13.709434, z: 5.282226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 771599567}
@@ -16995,7 +17028,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947799109}
-  m_LocalRotation: {x: 0.0000000051492828, y: 0.8983457, z: -0.43928915, w: 0.000000010530278}
+  m_LocalRotation: {x: 0.000000005149291, y: 0.8983457, z: -0.43928915, w: 0.000000010530295}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -17203,8 +17236,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096142713}
-  m_LocalRotation: {x: 0.000000014078463, y: 0.88213867, z: -0.4709899, w: 0.0000000263682}
-  m_LocalPosition: {x: 0, y: 16.754433, z: 5.282226}
+  m_LocalRotation: {x: 0.00000002114507, y: 0.8821386, z: -0.47099, w: 0.000000039603567}
+  m_LocalPosition: {x: 0, y: 13.709434, z: 5.282226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
