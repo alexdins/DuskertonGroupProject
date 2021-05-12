@@ -355,7 +355,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Open Case
+  m_Text: Begin Case
 --- !u!222 &1227204513
 CanvasRenderer:
   m_ObjectHideFlags: 0
