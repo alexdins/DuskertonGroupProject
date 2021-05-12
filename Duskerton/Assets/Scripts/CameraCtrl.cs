@@ -7,7 +7,7 @@ public class CameraCtrl : MonoBehaviour
     public CharacterController control;
     public GameObject pcArms;
     public Camera[] views;
-    
+
     public float mouseSpeed = 100f;
     public int currCam = 0;
     float xRot = 0f;
